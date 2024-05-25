@@ -6,9 +6,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Bot = Client(
     "Telegraph Uploader Bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("6592054852:AAErlPlwr3UKXAzsaSvyCGGbdaPON9WNqug"),
+    api_id=int(os.environ.get("26702912")),
+    api_hash=os.environ.get("f168695fe27367f16298b0c6293e7ddc")
 )
 
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
@@ -16,7 +16,7 @@ DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 START_TEXT = """Hello {},
 I am an under 5MB media or file to telegra.ph link uploader bot.
 
-Made by @FayasNoushad"""
+Made by"""
 
 HELP_TEXT = """--**Help**--
 
